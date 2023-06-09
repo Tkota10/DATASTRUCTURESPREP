@@ -1,5 +1,15 @@
 
 # Correct Solution
+        #Variables
+
+        longlength = 0
+
+        templength = 0
+        unique_chars = set()
+
+        start = 0
+        end = 0
+
 
 while end < len(s):
         if s[end] not in unique_chars:
