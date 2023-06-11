@@ -25,7 +25,7 @@ class Solution(object):
         return maxproduct
 
 
-#My Solution (passed test cases)
+#My Solution (passed some test cases)
 
 class Solution(object):
     def maxProduct(self, nums):
