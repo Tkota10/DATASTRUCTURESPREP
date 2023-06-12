@@ -12,12 +12,14 @@ class Solution(object):
         3) Merge lists, take it from the beginning of each list
         """
 
+        #Find the middle using the fast, slow method
+        
         slow, fast = head, head.next
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
         
-        #Reverse the second part of the list
+        #Reverse the second part of the list, based on the dertimined middle
 
         second = slow.next
         prev = slow.next = None
@@ -27,6 +29,8 @@ class Solution(object):
             second.next = prev
             prev = second
             second = tmp
+
+        #Merge both of the lists, again using a two pointer method
         
         first, second = head, prev
         while second:
