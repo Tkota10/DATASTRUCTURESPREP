@@ -10,9 +10,11 @@ class Solution(object):
         res = []
 
         def backtrack(comb):
+            #Once I get 4 Numbers, I return
             if len(comb) == len(nums):
                 res.append(list(comb))
                 return
+            #DFS
             for i in range(len(nums)):
                 if nums[i] not in comb:
                     comb.append(nums[i])
