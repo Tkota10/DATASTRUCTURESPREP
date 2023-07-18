@@ -14,3 +14,5 @@ class Solution(object):
                     finalset.add(i)
 
         return len(finalset) == 3
+    
+        #Important
