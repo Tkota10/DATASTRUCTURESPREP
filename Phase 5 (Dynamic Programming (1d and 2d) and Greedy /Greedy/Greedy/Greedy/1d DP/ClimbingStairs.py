@@ -24,4 +24,7 @@ class Solution(object):
             memo[cur] = explore(cur + 1) + explore(cur + 2)
             return memo[cur]
         return explore(0)
+    
+
+    #Use a for loop to optimize, instead of recursion
             
