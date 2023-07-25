@@ -32,3 +32,5 @@ class Solution(object):
         #If stack is not empty, return false. Otherwise, return true
 
         return True if not stack else False
+    
+        #If stack is not empty that means their are extra open or closed paranethis left over
