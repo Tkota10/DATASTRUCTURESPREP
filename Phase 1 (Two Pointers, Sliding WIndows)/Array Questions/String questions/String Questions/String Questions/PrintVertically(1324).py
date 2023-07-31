@@ -6,7 +6,7 @@ class Solution:
             if len(i) > maxlen:
                 maxlen = len(i)
         
-        solution = [""]* maxlen #That's the max our array will have to be
+        solution = [""] * maxlen #That's the max our array will have to be
 
         for word in s:
             for j in range(maxlen):
@@ -20,6 +20,10 @@ class Solution:
         
 
         return solution
+    
+        "How Are you doing"
+
+        Solution = ["Hayd", "Oroo" , "Weui" , "n", "    g"]
         
 
             
